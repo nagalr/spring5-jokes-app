@@ -12,5 +12,4 @@ public class JokeappApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
-
 }

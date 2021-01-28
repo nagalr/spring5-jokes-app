@@ -12,7 +12,7 @@ public class JokeServiceImpl implements JokeService {
 
     private final ChuckNorrisQuotes chuckNorrisQuotes;
 
-    // optional @Autowire on Ctor Injection
+    // optional '@Autowire' word on Ctor Injection
     @Autowired
     public JokeServiceImpl(ChuckNorrisQuotes chuckNorrisQuotes) {
         this.chuckNorrisQuotes = chuckNorrisQuotes;
